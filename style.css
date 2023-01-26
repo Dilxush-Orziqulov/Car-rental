@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+header {
+    border-bottom: 1px solid #e5e7ea;
+    padding-bottom: 15px;
+}
+
+.desc {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.moon-box {
+    background-color: #F5F5F5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 150px;
+    border-radius: 50px;
+    flex-direction: row;
+    padding: 15px 30px 0;
+}
+
+.top-bg {
+    background-image: url(./img/Rectangle\ 671back.png);
+    height: 500px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .top-bg::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.24);
+    position: absolute;
+    width: 1200px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    z-index: -2;
+} */
+
+.link-top {
+    background-color: #cbcbc7;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+.chevron {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 600px;
+    height: 66px;
+    border-radius: 50px;
+    bottom: -30px;
+    box-shadow: 0 0 20px #a09e9e;
+    left: 290px;
+}
+
+.input-box input {
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #a09e9e;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #299764;
+    cursor: pointer;
+}
+
+.car-btn-green {
+    background-color: #299764;
+}
+
+.car-btn,
+.car-btn-green {
+    padding-top: 15px;
+    width: 180px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-btn {
+    border: 1px solid #cbcbc7;
+}
+
+.section-card {
+    background-color: #F5F5F5;
+    width: 410px;
+    margin: 0 20px 20px 0;
+}
+
+.line {
+    display: flex;
+    width: 330px;
+    height: 3px;
+    background: linear-gradient(90deg, #EA4335 19.83%, #FBBC05 65%, #34A853 82.29%, #4285F4 100%);
+}
+
+.insta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #EA4335;
+    color: #EA4335;
+}
+
+.ct-right {
+    border-radius: 0 15px 15px 0;
+    overflow-x: scroll;
+}
+
+.star-rating {
+    border-top: 1px solid #E5E7EA;
+}
+
+.star-box img {
+    width: 23px;
+}
+
+.load-line {
+    width: 80%;
+    height: 5px;
+    background-color: #7fc1a2;
+    position: relative;
+    display: flex;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.load-line::after {
+    content: '';
+    display: flex;
+    width: 0;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-right:hover .load-line.load-line::after {
+    width: 100%;
+    transition: 5s all ease;
+}
+
+.avatar-box::after {
+    content: '';
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #34A853;
+    top: -15px;
+    left: 40px;
+    z-index: -1;
+}
